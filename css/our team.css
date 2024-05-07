@@ -1,0 +1,106 @@
+.weblogo {
+    width: 65px;
+}
+
+.navbar {
+    background: #000000a6 !important;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.moblogo {
+    display: none;
+}
+
+.menu ul li:hover{
+    background:#fbac1b ;
+}
+
+.a {
+    background: url(../image/new-our-team.jpg);
+    height: 630px;
+}
+
+.b {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.3;
+    font-size: 1.5cm;
+    font-family: monospace;
+    color: white;
+    font-size: 20px;
+
+}
+
+.c {
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+}
+
+.ph1 {
+
+    background-image: url(../image/YPAshok.jpg);
+    width: 100%;
+    height: 8.8cm;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.ph2 {
+    background-image: url(../image/B.R.-Sachdeva.jpg);
+    width: 100%;
+    height: 8.8cm;
+    background-position: center;
+    background-size: cover;
+}
+
+.ph3 {
+    background-image: url(../image/Sagar-Bajaj.jpg);
+    width: 100%;
+    height: 8.8cm;
+    background-position: center;
+    background-size: cover;
+}
+
+.ph4 {
+    background-image: url(../image/JAY-PHOTO-1-1.jpg);
+    width: 100%;
+    height: 8.8cm;
+    background-position: center;
+    background-size: cover;
+}
+
+.ph5 {
+    background-image: url(../image/vibhutiPR.jpg);
+    width: 100%;
+    height: 8.8cm;
+    background-position: center;
+    background-size: cover;
+}
+
+@media(max-width:768px) {
+    .moblogo {
+        display: block;
+    }
+
+    .weblogo {
+        display: none;
+    }
+
+    .navbar {
+        background: #fbac1b !important;
+    }
+}

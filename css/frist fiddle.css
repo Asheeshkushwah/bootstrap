@@ -1,0 +1,80 @@
+.weblogo {
+    width: 65px;
+}
+
+.navbar {
+    background: #000000a6 !important;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.moblogo {
+    display: none;
+}
+
+
+.a {
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: math;
+    letter-spacing: 3px;
+}
+
+.b {
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+}
+
+.menu ul li:hover {
+    background: #fbac1b;
+}
+
+.img123 {
+    width: 80%;
+}
+
+.c {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../image/aaa.jpg);
+    width: 100%;
+
+
+}
+
+.d {
+    color: white;
+    font-weight: 200;
+    font-family: math;
+}
+
+.e {
+    color: white;
+    font-weight: 200;
+    font-family: math;
+}
+
+
+@media(max-width:768px) {
+    .moblogo {
+        display: block;
+    }
+
+    .weblogo {
+        display: none;
+    }
+
+    .navbar {
+        background: #fbac1b !important;
+    }
+}

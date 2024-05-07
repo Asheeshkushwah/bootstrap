@@ -1,0 +1,77 @@
+
+.menu ul li:hover{
+    background: #fbac1b;
+}
+
+.weblogo {
+    width: 65px;
+}
+.navbar{
+    background: #000000a6 !important;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 600;
+}
+.moblogo{
+    display: none;
+}
+
+
+.a {
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+}
+
+.b {
+    background-image: url(../image/gamebanner.jpg);
+    width: 100%;
+}
+
+.c {
+    line-height: 40px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: lighter;
+    padding-bottom: 2cm;
+    color: white;
+}
+
+.d {
+    line-height: 40px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    margin-top: 20px;
+    font-weight: lighter;
+    padding-bottom: 2cm;
+}
+.e{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+}
+
+@media(max-width:768px){
+    .moblogo{
+        display: block;
+    }
+    .weblogo{
+        display: none;
+    }
+    .navbar{
+        background: #fbac1b !important;
+    }
+}
