@@ -1,6 +1,9 @@
 .weblogo {
     width: 65px;
 }
+.moblogo {
+    display: none;
+}
 
 .navbar {
     background: #000000a6 !important;
@@ -16,9 +19,7 @@
     font-weight: 600;
 }
 
-.moblogo {
-    display: none;
-}
+
 
 
 .a {
